@@ -3,8 +3,8 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Button from '../components/Button'
 
-const copy: Record<string, { title: string; kicker: string; features: string[] }> = {
-  'embrain': {
+const copy = {
+  embrain: {
     title: 'EmBrain',
     kicker: 'Large‑scale research and investigative system for structured entity data.',
     features: [
@@ -18,12 +18,12 @@ const copy: Record<string, { title: string; kicker: string; features: string[] }
     kicker: 'Real‑time social monitoring and scoring with analyst workflows.',
     features: ['AI‑assisted triage', 'Priority scoring with color badges', 'Analyst boards & exports'],
   },
-  'napoleon': {
+  napoleon: {
     title: 'Napoleon',
     kicker: 'Automated multi‑model AI research and report generation.',
     features: ['Parallel agents', 'Source‑tracked outputs', 'Exportable investigative reports'],
   },
-  'relationships': {
+  relationships: {
     title: 'Relationship Analysis',
     kicker: 'Graph‑powered exploration of entity connections (Neo4j).',
     features: ['Explorable graph', 'Filter relation types', 'Evidence overlays & timeline'],
